@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\shaders_gl3\bodyIndex.frag" />
+    <None Include="bin\data\shaders_gl3\bodyIndex.vert" />
+    <None Include="bin\assimp.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bin\dial.png" />
+    <Image Include="bin\data\dial.png" />
+    <Image Include="bin\data\oldtvwebcam.png" />
+    <Image Include="bin\data\oldtvwebcamOn.png" />
+    <Image Include="bin\data\test.jpg" />
+    <Image Include="bin\data\test2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bin\data\chanelchange.mp4" />
+    <Media Include="bin\data\trix.mov" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="bin\data\Courier New Bold.ttf" />
+  </ItemGroup>
+</Project>
