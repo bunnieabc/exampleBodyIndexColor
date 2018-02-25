@@ -1,6 +1,6 @@
 # exampleBodyIndexColor
 
-Tried to make viewer feel like they are in TV scenes.
+Kinect v2 Mini Project with Openframeworks. Tried to make viewer feel like they are in TV scenes.
 
 1.
 ![Effect 1](https://s3.us-east-2.amazonaws.com/creative-coding/1.jpg)
